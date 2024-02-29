@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Mi Portafolio</title>
+    <!-- Agregar enlaces a los archivos de estilo de Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Agregar tu propio archivo de estilo personalizado -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Barra de Navegación -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Mi Portafolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#acerca-de-mi">Acerca de Mí</a></li>
+            <li class="nav-item"><a class="nav-link" href="#resumen-habilidades">Resumen de Habilidades</a></li>
+            <li class="nav-item"><a class="nav-link" href="#portafolio">Portafolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Sección: Acerca de Mí -->
+<section id="acerca-de-mi" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Dilan Alvaro Alavi Gutierrez</h2>
+                <p class="vertical-center">Estudiante de Ingeniería de Sistemas en la Universidad Católica.</p>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="me.jpg" alt="Foto de Dilan Alavi" class="img-fluid max-width-120">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Sección: Resumen de Habilidades -->
+<section id="resumen-habilidades" class="py-5">
+    <div class="container text-center">
+        <h2>Habilidades</h2>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <img src="c++.png" alt="CSS" class="img-fluid max-width-180">
+                <button class="btn btn-primary mt-3" data-toggle="modal" data-target="#modalCSS">Ver</button>
+            </div>
+            <div class="col-md-6 vertical-center">
+                <h4>C++</h4>
+                <p class="text-center">Tengo experiencia sólida en programación en C++, lo que me permite desarrollar aplicaciones eficientes y de alto rendimiento. </p>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <img src="python.jpg" alt="HTML" class="img-fluid max-width-180">
+                <button class="btn btn-primary mt-3" data-toggle="modal" data-target="#modalHTML">Ver</button>
+            </div>
+            <div class="col-md-6 vertical-center">
+                <h4>PYTHON</h4>
+                <p class="text-center">Soy competente en el desarrollo con Python, un lenguaje versátil y poderoso. He aplicado Python en diversas áreas, desde scripting y automatización hasta desarrollo web y análisis de datos.</p>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <img src="js.jpg" alt="JavaScript" class="img-fluid max-width-180">
+                <button class="btn btn-primary mt-3" data-toggle="modal" data-target="#modalJavaScript">Ver</button>
+            </div>
+            <div class="col-md-6 vertical-center">
+                <h4>JavaScript</h4>
+                <p class="text-center">Poseo habilidades en el desarrollo con JavaScript, lo que me permite crear soluciones dinámicas e interactivas para diversos proyectos.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Sección: Portafolio -->
+<section id="portafolio" class="py-5">
+    <div class="container">
+        <h2>Portafolio</h2>
+        <p>Descubre mi portafolio para explorar proyectos destacados alojados en GitHub. Aquí encontrarás ejemplos concretos de mi experiencia y habilidades en desarrollo, respaldados por el código fuente de cada proyecto. ¡Echa un vistazo y sumérgete en mi trabajo!</p>
+        <a href="https://github.com/DilanAlavi?tab=repositories" target="_blank">Explora mi GitHub</a>
+    </div>
+</section>  
+
+<!-- Sección: Servicios -->
+<section id="servicios" class="py-5">
+    <div class="container">
+        <h2>Servicios</h2>
+        <ul>
+            <li><strong>Diseño de Páginas Web:</strong> Creación de experiencias visuales atractivas y funcionales.</li>
+            <li><strong>Desarrollo en Python:</strong> Utilizando librerías y frameworks para construir soluciones eficientes.</li>
+            <li><strong>Programas para Análisis de Datos:</strong> Desarrollo de herramientas personalizadas para el procesamiento y análisis de datos.</li>
+            <li><strong>Programación Orientada a Objetos (POO):</strong> Implementación de conceptos POO para estructurar y organizar el código de manera efectiva.</li>
+        </ul>
+    
+        <p>Estoy comprometido a ofrecer soluciones de alta calidad que se adapten a tus requerimientos. ¡Trabajemos juntos para alcanzar tus objetivos!</p>
+    </div>
+</section>
+
+<!-- Sección: Contacto -->
+<section id="contacto" class="py-5">
+    <div class="container">
+        <h2>Contacto</h2>
+        <h5>Correo:</h5>
+        <p>dilan.alavi@gmail.com</p>
+    </div>
+</section>
+
+<!-- Modal para CSS -->
+<div class="modal fade" id="modalCSS" tabindex="-1" role="dialog" aria-labelledby="modalCSSLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalCSSLabel">CSS</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Contenido específico de CSS.
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal para HTML -->
+<div class="modal fade" id="modalHTML" tabindex="-1" role="dialog" aria-labelledby="modalHTMLLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalHTMLLabel">HTML</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Contenido específico de HTML.
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal para JavaScript -->
+<div class="modal fade" id="modalJavaScript" tabindex="-1" role="dialog" aria-labelledby="modalJavaScriptLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalJavaScriptLabel">JavaScript</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Contenido específico de JavaScript.
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Agregar enlaces a los archivos de script de Bootstrap y jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

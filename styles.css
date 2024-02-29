@@ -1,0 +1,139 @@
+/* styles.css */
+
+/* Color de fondo para la barra de navegación */
+.navbar {
+    background-color: #3498db; /* Puedes cambiar el color a tu preferencia */
+}
+
+/* Color de texto para los elementos de la barra de navegación */
+.navbar-nav .nav-link {
+    color: #ffffff; /* Puedes cambiar el color a tu preferencia */
+}
+
+/* Color de fondo para las secciones con id acerca-de-mi y resumen-habilidades */
+#acerca-de-mi, #resumen-habilidades {
+    background-color: #ecf0f1; /* Puedes cambiar el color a tu preferencia */
+}
+
+/* Color de texto para los títulos de sección */
+h2, h4, h5 {
+    color: #2c3e50; /* Puedes cambiar el color a tu preferencia */
+}
+
+/* Color de fondo para los botones primarios */
+.btn-primary {
+    background-color: #e74c3c; /* Puedes cambiar el color a tu preferencia */
+    border-color: #e74c3c; /* Puedes cambiar el color a tu preferencia */
+}
+
+/* Color de texto para los botones primarios */
+.btn-primary:hover {
+    color: #ffffff; /* Puedes cambiar el color a tu preferencia */
+}
+
+/* Color de fondo para las secciones de modal */
+.modal-content {
+    background-color: #f39c12; /* Puedes cambiar el color a tu preferencia */
+}
+
+/* Color de texto para los títulos de los modales */
+.modal-title {
+    color: #ffffff; /* Puedes cambiar el color a tu preferencia */
+}
+/* styles.css */
+
+/* Añadir animación de fadeIn a las secciones */
+.fadeIn {
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Efecto de desplazamiento suave para la barra de navegación */
+.navbar-nav .nav-link {
+    cursor: pointer;
+}
+
+/* Estilo al hacer hover sobre los enlaces de la barra de navegación */
+.navbar-nav .nav-link:hover {
+    color: #f39c12; /* Cambia el color a tu preferencia */
+}
+
+/* Animación de fadeIn para las imágenes en las secciones */
+.img-fluid {
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Agregar un efecto de sombra sutil a los botones */
+.btn {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo al hacer hover sobre los botones */
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+/* Definir la animación de fadeIn */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/* styles.css */
+
+/* Estilo para la sección de Portafolio */
+#portafolio {
+    background-color: #dcdde1; /* Gris claro */
+    color: #2c3e50; /* Gris oscuro */
+    padding: 50px 0;
+}
+
+
+
+#portafolio p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#portafolio a {
+    color: #3498db; /* Azul claro */
+    text-decoration: underline;
+}
+
+/* Estilo para la sección de Servicios */
+#servicios {
+    background-color: #c8d8dc; /* Gris claro */
+    color: #2c3e50; /* Gris oscuro */
+    padding: 50px 0;
+}
+
+
+
+#servicios ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#servicios li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para la sección de Contacto */
+#contacto {
+    background-color: #efca8e; /* Amarillo claro */
+    color: #2c3e50; /* Gris oscuro */
+    padding: 50px 0;
+}
+
+
+#contacto h5 {
+    font-size: 20px;
+}
+
+#contacto p {
+    font-size: 18px;
+    margin-top: 10px;
+}
